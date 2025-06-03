@@ -79,7 +79,7 @@ Launch `MTZIPBenchGUI.exe`.
 
 ## Sample Performance Results
 
-Below is an example of performance results when compressing a **1 GiB** binary file with a **4 MiB** chunk size. These results were captured on a Windows 11 system (Intel i5-12450H, 16 GB RAM, NVIDIA RTX 3050).
+Below is an example of performance results when compressing a **1 GiB** binary file with a **4 MiB** chunk size.
 
 | Metric                         | Single-Threaded | Multithreaded |
 | ------------------------------ | --------------- | ------------- |
