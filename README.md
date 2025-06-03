@@ -43,7 +43,7 @@ This tool is not just a compressor, but also a learning aid—helping developers
 Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/MULTITHREADED-FILE-COMPRESSION-TOOL.git
+git clone https://github.com/Student-of-coding/MULTITHREADED-FILE-COMPRESSION-TOOL.git
 cd MULTITHREADED-FILE-COMPRESSION-TOOL
 ```
 
