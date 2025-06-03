@@ -50,9 +50,11 @@ cd MULTITHREADED-FILE-COMPRESSION-TOOL
 Ensure the following folders and files exist under the project root:
 
 ```text
-third_party\zlib\include
+third_party\zlib\include\zconf.h
+third_party\zlib\include\zlib.h
 third_party\zlib\lib\zlib.lib
-third_party\libdeflate\include
+third_party\libdeflate\include\common_defs.h
+third_party\libdeflate\include\libdeflate.h
 third_party\libdeflate\lib\deflatestatic.lib
 ```
 
