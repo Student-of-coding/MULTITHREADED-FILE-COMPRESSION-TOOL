@@ -1,4 +1,4 @@
-# FILE-MANAGEMENT-TOOL
+# MULTITHREADED-FILE-COMPRESSION-TOOL
 
 *COMPANY*: CODTECH IT SOLUTIONS
 
@@ -12,7 +12,7 @@
 
 *MENTOR*: NEELA SANTOSH
 
-This MTZIPBenchGUI is a lightweight native Win32 C++ application that provides a graphical interface for compressing and decompressing arbitrary files on Windows. It uses zlib and libdeflate to implement both single-threaded and multithreaded chunked compression, then reports throughput and file-size metrics for comparison. Written with the Win32 API in Visual Studio and compiled via the MSVC toolchain, it demonstrates fundamental file I/O, overlapping I/O, and multithreading techniques in a GUI setting. Tested on Windows 7/8/10/11.
+This is a lightweight native Win32 C++ application that provides a graphical interface for compressing and decompressing arbitrary files on Windows. It uses zlib and libdeflate to implement both single-threaded and multithreaded chunked compression, then reports throughput and file-size metrics for comparison. Written with the Win32 API in Visual Studio and compiled via the MSVC toolchain, it demonstrates fundamental file I/O, overlapping I/O, and multithreading techniques in a GUI setting. Tested on Windows 7/8/10/11.
 
 This tool is not just a compressor, but also a learning aid—helping developers understand the mechanics of chunked compression, synchronization (bounded queues), and progress reporting in a Win32 desktop application.
 
