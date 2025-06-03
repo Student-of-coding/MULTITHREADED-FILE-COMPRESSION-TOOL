@@ -126,6 +126,21 @@ In this case, multithreaded compression achieved a **5.56×** speedup over the s
 * Support resizable layout and DPI scaling.
 * Add real-time charts comparing throughput over time.
 
+##OUTPUT 
+
+![Image](https://github.com/user-attachments/assets/37345b72-12f8-49da-be0b-d058e46a2a7d)
+
+Left: Windows File Explorer showing the project directory, including files such as large_test.bin, MTZIPBenchGUI.exe, and the generated compressed outputs.
+
+Right: MTZIPBenchGUI.exe actively executing, demonstrating compression of a 1 GiB file using a 4 MiB chunk size. The result panel displays:
+
+Single-threaded time: 5384.04 ms
+
+Multi-threaded time: 967.66 ms
+
+Speedup factor: 5.56×
+
+This confirms that the application performs efficient multithreaded compression, providing a significant performance boost while preserving data integrity and offering real-time progress feedback.
 ---
 
 📌 MTZIPBenchGUI is ideal for developers exploring parallel compression, overlapped I/O, and chunked-stream processing on Windows. It serves as both a practical GUI tool and an educational example for native Win32 multithreaded applications.
